@@ -1,5 +1,7 @@
+// https://leetcode.com/problems/palindrome-number/
+
 class Solution {
-   public static boolean isPalindrome(int x) {
+   public boolean isPalindrome(int x) {
       int rev = 0, temp = x;
       while (temp > 0) {
          rev = rev * 10 + (int) (temp % 10);
@@ -7,9 +9,5 @@ class Solution {
       }
       if (rev == x) return true;
       return false;
-   }
-
-   public static void main(String[] args) {
-      System.out.println(isPalindrome(121));
    }
 }
