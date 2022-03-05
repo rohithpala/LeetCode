@@ -1,6 +1,6 @@
-import java.util.Stack;
-
 // https://leetcode.com/problems/valid-parentheses/
+
+import java.util.Stack;
 
 class ValidParentheses {
    public static boolean isValid(String s) {
