@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/palindrome-number/
 
-class Solution {
+class PalindromeNumber {
     public boolean isPalindrome(int x) {
         int rev = 0, temp = x;
         while (temp > 0) {
